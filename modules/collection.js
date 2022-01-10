@@ -3,7 +3,7 @@ const inputAuthor = document.getElementById('author');
 const bookSection = document.querySelector('.books');
 const txt = document.querySelector('form > p');
 
-class Collection {
+export default class Collection {
   constructor(books = []) {
     this.books = books;
   }
@@ -75,5 +75,3 @@ class Collection {
     );
   }
 }
-
-export default Collection;
