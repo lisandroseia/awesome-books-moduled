@@ -1,6 +1,6 @@
-import Book from './modules/book';
-import Collection from './modules/collection.js';
 import { DateTime } from 'luxon';
+import Book from './modules/book.js';
+import Collection from './modules/collection.js';
 
 const inputTitle = document.getElementById('title');
 const inputAuthor = document.getElementById('author');
@@ -51,7 +51,7 @@ navContact.addEventListener('click', (evt) => {
 const dateSection = document.querySelector('.date');
 
 setInterval(() => {
-  let dt = DateTime.now();
+  const dt = DateTime.now();
 
   dateSection.textContent = dt
     .toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS)

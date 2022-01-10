@@ -39,7 +39,6 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .add-books {
@@ -185,6 +184,3 @@ footer > p {
 .contact-heading {
   margin-bottom: 30px;
 }
-
-
-/*# sourceMappingURL=/styles.8986bff4.css.map */
